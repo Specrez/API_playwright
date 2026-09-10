@@ -10,7 +10,7 @@ test("API DELETE Request", async ({ request }) => {
 });
 
 
-test.only("API PUT Request", async ({ request }) => {
+test("API PUT Request", async ({ request }) => {
   const response = await request.put("https://reqres.in/api/users/2", {
     data: {
     name: "oshadha",
